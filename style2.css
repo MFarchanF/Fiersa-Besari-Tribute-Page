@@ -1,0 +1,206 @@
+body{
+    font-family: "Lucida Console", "Courier New", monospace;
+    padding-top: 70px;
+    margin: 0px;
+    background-color: #DDDDDD;
+}
+* {
+    box-sizing: border-box;
+  }
+nav{
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    background-color: #150E56;
+    width: 100%;
+    z-index: 10;
+}
+nav ul{
+    display: flex;
+    justify-content: center;
+}
+nav ul li{
+    margin: 0 25px;
+}
+nav ul li a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+nav ul li a:hover{
+    text-decoration: underline;
+}
+#main{
+    text-align: center;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+#main h1{
+    font-family: cursive, URW Chancery L;
+    margin: 0;
+    padding: 0;
+    font-size: 6vw;
+    line-height: 1em;
+}
+#main p{
+    font-size: 2vw;
+    margin: 20px;
+}
+#image{
+    max-width: 100%;
+    display: block;
+}
+#image2{
+    max-width: 100%;
+    display: block;
+}
+#img-div {
+    background-color: white;
+    padding: 15px;
+    max-width: 450px;
+    float: left;
+    margin-left: 10px;
+}
+#img-div2 {
+    background-color: white;
+    padding: 15px;
+    max-width: 450px;
+    float: right;
+    margin-left: 10px;
+}  
+#img-caption {
+    margin-top: 10px;
+    font-size: 13px;
+    font-family: cursive, URW Chancery L;
+}
+#img-caption2 {
+    margin-top: 10px;
+    font-size: 13px;
+    font-family: cursive, URW Chancery L;
+}
+#tribute-info{
+    text-align: center;
+    max-width: 1000px;
+    margin: 0 auto;
+    justify-content: center;
+}
+#tribute-info h2{
+    text-align: center;
+}
+#tribute-info p{
+    text-align: justify;
+    margin: 0 10px 10px 10px;
+}
+#img-div-novel {
+    background-color: white;
+    padding: 15px;
+    max-width: 250px;
+    margin: 0 10px 10px 10px;
+    float: left;
+}
+#img-caption-novel {
+    margin-top: 10px;
+    font-size: 13px;
+    font-family: cursive, URW Chancery L;
+}
+#img-div-novel2 {
+    background-color: white;
+    padding: 15px;
+    max-width: 250px;
+    margin: 0 10px 10px 10px;
+    float: left;
+}
+#img-caption-novel2 {
+    margin-top: 10px;
+    font-size: 13px;
+    font-family: cursive, URW Chancery L;
+}
+#img-div-novel3 {
+    background-color: white;
+    padding: 15px;
+    max-width: 250px;
+    margin: 0 10px 10px 10px;
+    float: left;
+}
+#img-caption-novel3 {
+    margin-top: 10px;
+    font-size: 13px;
+    font-family: cursive, URW Chancery L;
+}
+#img-div-novel4 {
+    background-color: white;
+    padding: 15px;
+    max-width: 250px;
+    margin: 0 10px 10px 10px;
+    float: left;
+}
+#img-caption-novel4 {
+    margin-top: 10px;
+    font-size: 13px;
+    font-family: cursive, URW Chancery L;
+}
+#img-div-novel5 {
+    background-color: white;
+    padding: 15px;
+    max-width: 250px;
+    margin: 0 10px 10px 10px;
+    float: left;
+}
+#img-caption-novel5 {
+    margin-top: 10px;
+    font-size: 13px;
+    font-family: cursive, URW Chancery L;
+}
+#img-div-novel6 {
+    background-color: white;
+    padding: 15px;
+    max-width: 250px;
+    margin: 0 10px 10px 10px;
+    float: left;
+}
+#img-caption-novel6 {
+    margin-top: 10px;
+    font-size: 13px;
+    font-family: cursive, URW Chancery L;
+}
+#video {
+    text-align: center;
+    margin-top: 50px;
+}
+.video-list {
+    margin-top:30px;
+}
+.video-karya{
+    text-align: center;
+}
+#socialmedia {
+  text-align:center;
+  background-color: #150E56;
+  padding:5px 0;
+  margin-top: 10px;
+}
+
+#socialmedia h2 {
+  color: white;
+}
+
+#socialmedia ul {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+
+#socialmedia li {
+  font-size: 2em;
+  margin: 0 10px;
+}
+
+#socialmedia li a {
+  color: white;
+}
+.clear{
+    clear:both
+}
+
+
